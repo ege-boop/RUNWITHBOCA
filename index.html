@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RUNWITHBOCA</title>
+    <link rel="icon" href="./img/sunrun-min.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <img src="./img/sunrun-min.png" alt="RUNWITHBOCA Logo" class="loading-logo">
+            <h1 class="loading-title">RUNWITHBOCA</h1>
+            <div class="loading-spinner"></div>
+        </div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-left">
+            <img class="nav-logo-img" src="./img/sunrun-min.png" alt="Runner silhouetted against a sunset">
+            <span class="nav-title">RUNWITHBOCA</span>
+        </div>
+        <div class="nav-center">
+            <a href="#about">About</a>
+            <a href="#requirements">Requirements</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#rsvp">RSVP</a>
+        </div>
+        <div class="nav-right">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfUfNB6bUHvJGKSY4t0no4XuZDONsf0txv-fiYjL71NAdD9dQ/viewform?usp=dialog" target="_blank" class="nav-button">Join Us</a>
+            <button id="theme-toggle"></button>
+        </div>
+    </nav>
+
+    <div class="hero"></div>
+
+    <div class="text-section">
+        <h1 class="logo">RUNWITHBOCA</h1>
+        <h2 class="tagline">A South Florida Running Club</h2>
+       
+    </div>
+
+    <div class="container">
+        <div class="about-section revealable" id="about">
+            <h2>About Our Community</h2>
+            <p>RUNWITHBOCA brings together runners of all levels in South Florida. We believe in the power of community, the beauty of consistency, and the joy found in every mile shared together.</p>
+            <h3>What We Offer</h3>
+            <ul>
+                <li><b>Group Runs</b> <i>Weekly morning and evening sessions for all paces</i></li>
+                <li><b>Training Programs</b> <i>Structured coaching for marathon prep and 5K goals</i></li>
+                <li><b>Community Events</b> <i>Social gatherings and race day team support</i></li>
+                <li><b>Mentorship</b> <i>Experienced runners guiding newcomers to success</i></li>
+            </ul>
+        </div>
+        
+        <div class="requirements-section revealable" id="requirements">
+            <h2>Event Guidelines & Requirements</h2>
+            <p>To ensure a safe and enjoyable experience for everyone, please adhere to the following guidelines and bring the required items.</p>
+            <ul>
+                <li><b>Age:</b> Participants must be between 18 and 50 years old.</li>
+                <li><b>Footwear:</b> A pair of running shoes and a separate pair of normal shoes for after the run.</li>
+                <li><b>Apparel:</b> Extra socks, a fresh shirt, shorts, and a towel.</li>
+                <li><b>Accessories:</b> A running bag to hold your personal items.</li>
+                <li><b>Safety:</b> For your safety and to prevent loss, please do not wear necklaces or loose jewelry during runs.</li>
+            </ul>
+        </div>
+
+        <div class="schedule-section revealable" id="schedule">
+            <h2>Running Schedule</h2>
+            <div class="image-grid">
+                <div class="image-item">
+                    <img alt="Morning run" src="./img/runboca.png" class="img1" />
+                    <h3>Morning Runs</h3>
+                    <p><b>Every Saturday & Sunday</b><br>Start your day with purpose. Join us for energizing morning runs through Boca's most scenic routes.</p>
+                    <ul class="event-schedule">
+                        <li><b>6:00 AM</b> - Event Start</li>
+                        <li><b>7:00 AM</b> - 20-min break at Port</li>
+                        <li><b>8:00 AM</b> - 20-min break at Park</li>
+                        <li><b>9:00 AM</b> - 1-hour breakfast & coffee</li>
+                        <li><b>10:00 AM</b> - Event End</li>
+                    </ul>
+                </div>
+                <div class="image-item">
+                    <img alt="Training session" src="./img/img1.jpg" class="img1" />
+                    <h3>Training Sessions</h3>
+                    <p><b>Tuesdays & Thursdays</b><br>Structured workouts designed to help you reach your personal running goals, whatever they may be.</p>
+                    <ul class="event-schedule">
+                        <li><b>5:30 PM</b> - Session Start</li>
+                        <li><b>6:00 PM</b> - Warm-up & Stretching</li>
+                        <li><b>6:30 PM</b> - Speed/Endurance Training</li>
+                        <li><b>7:15 PM</b> - Cool-down & Recovery</li>
+                        <li><b>7:30 PM</b> - Session End</li>
+                    </ul>
+                </div>
+                <div class="image-item">
+                    <img alt="Group events" src="./img/img2.jpg" class="img2" />
+                    <h3>Group Events</h3>
+                    <p><b>First Friday of Each Month</b><br>From local races to social gatherings, we celebrate every milestone together as a community.</p>
+                    <ul class="event-schedule">
+                        <li><b>7:00 PM</b> - Event Start</li>
+                        <li><b>7:30 PM</b> - Welcome & Introductions</li>
+                        <li><b>8:00 PM</b> - Main Activity/Race</li>
+                        <li><b>9:00 PM</b> - Social Time & Refreshments</li>
+                        <li><b>9:30 PM</b> - Event End</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="evolution-section revealable" id="elevation">
+            <h2>Route Elevation</h2>
+            <p>View the elevation profile of our running routes. See the hills, climbs, and descents along the beautiful Boca Raton to Delray Beach path.</p>
+            <div class="evolution-image-container">
+                <img src="./img/evulation.png" alt="Route Elevation Profile" class="evolution-img" />
+            </div>
+        </div>
+
+        <div class="links-section revealable" id="resources">
+            <h2>Resources</h2>
+            <div class="map-section">
+                <h3>OUR RUNNING ROUTES</h3>
+                <div class="large-map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d57161.429795553026!2d-80.10883582292578!3d26.35839697398914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x88d91e6f5c245969%3A0x4453b3b91858a7a!2sBoca%20Raton%2C%20FL!3m2!1d26.3683064!2d-80.1289321!4m5!1s0x88d9274e0c0ec689%3A0x9c8ab69f63e37e5b!2sDelray%20Beach%2C%20FL!3m2!1d26.4614625!2d-80.0728201!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p><em>Interactive map showing our A1A Ocean Drive running routes from Boca Raton to Delray Beach</em></p>
+                </div>
+            </div>
+            <a href="https://greatruns.com/boca-raton-palmetto-to-delray-2/" target="_blank">
+                <article>
+                    <h3>A1A Ocean Drive Guide</h3>
+                    <p>Detailed guide for running along A1A from Palmetto to Delray Beach with distances and tips.</p>
+                </article>
+            </a>
+            <a href="" target="_blank" id="contact">
+                <article>
+                    <h3>Contact Info</h3>
+                    <p>Phone and Whatsapp Chat</p>
+                </article>
+            </a>
+        </div>
+
+        <!-- rsvp
+
+        Purpose:
+        - Section for users to sign up for the event
+        - Contains a form for users to input their information, 
+        and a list of other users who have signed up
+
+        When To Modify:
+        - [X] Project 6 (REQUIRED FEATURE) 
+        - [X] Project 6 (STRETCH FEATURE) 
+        - [X] Project 7 (REQUIRED FEATURE)
+        - [X] Project 7 (STRETCH FEATURE)
+        --> 
+        <div id="rsvp" class="revealable">
+            <h2>RSVP</h2>
+            <div class="rsvp-container">
+                <div class="rsvp-para">
+                    <!-- info goes here -->
+                    <p>Ready to lace up and join our running community? Whether you're chasing a new PR or just looking for some good company on the road, this is your moment! Complete the form below to reserve your spot with RUNWITHBOCA. Let's make every mile count together!</p>
+                </div>
+                <div class="rsvp-participants">
+                    <!-- RSVPs will appear here when submitted -->
+                    <p id="rsvp-count">0 runners are ready to hit the road!</p>
+                </div>
+            </div>
+
+            <!--- Sign RSVP Form --->
+            <div class="form-container">
+                <form id="rsvp-form" title="rsvp-form">
+                    <!-- form inputs go here -->
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="" required>
+                    </div>
+                    
+                    <div>
+                        <label for="home-state">Home State:</label>
+                        <input type="text" id="home-state" name="home-state" placeholder="" required>
+                    </div>
+                    
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="" required>
+                    </div>
+                    
+                    <!-- Submit button -->
+                    <button type="submit" id="rsvp-button">Submit RSVP</button>
+                </form>
+            </div>      
+        </div>
+    </div>
+
+    <!-- success modal
+
+    Purpose:
+    - Modal that appears when a user successfully signs up for the event
+    - Contains a personalized message and image
+
+    When To Modify:
+    - [X] Project 9 (REQUIRED FEATURE)
+    - [ ] Project 9 (STRETCH FEATURE) 
+    - [ ] Any time after
+    --> 
+
+    <div id="success-modal" class="modal">
+        <div class="modal-container">
+            <div class="celebration-emoji">🎉</div>
+            <div class="modal-item">
+                <h2 id="modal-title">Congratulations!</h2>
+                <p id="modal-text">Thank you for signing up!</p>
+                <p id="modal-subtitle">See you there!</p>
+            </div>
+            <div class="modal-item">
+                <img src="./img/happyman.jpg" alt="Runner celebrating at sunset" class="modal-image">
+            </div>
+            <!-- Confetti elements -->
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Navigate</h4>
+                <ul>
+                    <li><a href="#about">About Our Community</a></li>
+                    <li><a href="#requirements">Event Requirements</a></li>
+                    <li><a href="#schedule">Running Schedule</a></li>
+                    <li><a href="#contact">Contact Info</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.strava.com" target="_blank">Strava Club</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2025 RUNWITHBOCA</span>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
